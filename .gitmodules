@@ -1,0 +1,3 @@
+[submodule "evil-textobj-tree-sitter"]
+	path = evil-textobj-tree-sitter
+	url = git@github.com:meain/evil-textobj-tree-sitter.git
