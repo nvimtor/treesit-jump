@@ -147,6 +147,7 @@
                           (dockerfile-ts-mode . "dockerfile")
                           (toml-ts-mode . "toml")
                           (yaml-ts-mode . "yaml")
+                          (nix-ts-mode . "nix")
                           (zig-mode . "zig"))))
   (setf (map-elt treesit-jump-major-mode-language-alist
                  major-mode) lang-symbol))
