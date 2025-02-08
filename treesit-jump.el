@@ -148,6 +148,8 @@
                           (toml-ts-mode . "toml")
                           (yaml-ts-mode . "yaml")
                           (nix-ts-mode . "nix")
+                          (scala-ts-mode . "scala")
+                          (scala-mode . "scala")
                           (zig-mode . "zig"))))
   (setf (map-elt treesit-jump-major-mode-language-alist
                  major-mode) lang-symbol))
